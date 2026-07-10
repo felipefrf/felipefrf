@@ -55,3 +55,5 @@ guardrails that keep it safe in a regulated fintech:
 **Credix** — ML Engineer, built the credit-decisioning models (XGBoost / logistic regression) that became the
 primary automated engine. **LinkedIn** — shipped an LLM revenue-forecasting chatbot for the US & Canada sales team.
 Earlier: physics & robotics olympiad medalist (🥇 Iberoamerican Physics gold, 3× Brazilian Physics gold).
+
+<sub>Open to Full Stack AI Engineer roles.</sub>
