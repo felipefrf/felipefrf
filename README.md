@@ -9,6 +9,17 @@ real money — so I build them to fail loud, not silent.
 
 ---
 
+### Featured: [penpad](https://github.com/felipefrf/penpad), typed notes to realistic handwriting
+
+Write Markdown with LaTeX math and get handwritten-looking PDF pages for your iPad (Goodnotes,
+Notability), reMarkable or printer. It lays out fractions, integrals, roots and vectors in
+handwriting, and a writer model keeps the letters varied but legible. Open source, offline,
+`pip install`, no API key. [Project page](https://felipefrf.github.io/penpad/).
+
+<a href="https://github.com/felipefrf/penpad"><img src="https://raw.githubusercontent.com/felipefrf/penpad/main/docs/img/variation.png" alt="penpad: the same sentence handwritten six times with natural variation" width="560"></a>
+
+---
+
 ### What I'm building right now
 
 At **NG.CASH**, I design and ship AI systems end-to-end — LLM orchestration, the cloud infra under it, and the
@@ -33,6 +44,7 @@ guardrails that keep it safe in a regulated fintech:
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**penpad**](https://github.com/felipefrf/penpad) | Markdown + LaTeX notes to realistic handwritten PDF pages for iPad, Goodnotes and reMarkable, offline | Python, resvg |
 | [**yt-to-md**](https://github.com/felipefrf/yt-to-md) | Turn any YouTube video into clean, structured Markdown for AI agents — no API key, no cost | Python |
 | [**dual-subtitles-extension**](https://github.com/felipefrf/dual-subtitles-extension) | Chrome extension showing two synced subtitle languages on YouTube for language learning | WXT, React |
 | [**x-reset**](https://github.com/felipefrf/x-reset) | Bulk-delete old tweets from your official X archive — resumable, browser-driven | Playwright |
