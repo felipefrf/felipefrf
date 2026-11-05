@@ -14,7 +14,7 @@ real money — so I build them to fail loud, not silent.
 Write Markdown with LaTeX math and get handwritten-looking PDF pages for your iPad (Goodnotes,
 Notability), reMarkable or printer. It lays out fractions, integrals, roots and vectors in
 handwriting, and a writer model keeps the letters varied but legible. Open source, offline,
-`pip install`, no API key. [Project page](https://felipefrf.github.io/penpad/).
+`pip install`, no API key. [Project page](https://felipefrf.com/penpad/).
 
 <a href="https://github.com/felipefrf/penpad"><img src="https://raw.githubusercontent.com/felipefrf/penpad/main/docs/img/variation.png" alt="penpad: the same sentence handwritten six times with natural variation" width="560"></a>
 
