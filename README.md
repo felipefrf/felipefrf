@@ -23,6 +23,27 @@ Every person on the team gets their own agent, running in its own Linux microVM 
 
 <table>
   <tr>
+    <td width="34%" valign="top">
+      <a href="https://felipefrf.com/#chief"><img src="https://raw.githubusercontent.com/felipefrf/felipefrf.com/main/public/media/cos-app-poster.jpg" alt="The chief of staff's approval queue on a phone" width="260"></a>
+    </td>
+    <td valign="top">
+      <h4><a href="https://felipefrf.com/#chief">Chief of staff: one person, run like a team</a></h4>
+      I built my own chief of staff. It reads WhatsApp, Slack, e-mail, meetings and GitHub, works out what needs me, and has the answer, the e-mail or a whole working session ready. I only approve, from my phone.
+      <ul>
+        <li><b>Reads everything:</b> WhatsApp straight from the Mac's database (read-only, allow-listed contacts), Slack, three Gmail accounts, Granola after each meeting, calendar, Drive and GitHub.</li>
+        <li><b>Decides what needs me:</b> a Claude session on my server loops every 15 minutes and wakes the moment I message it. It remembers people, projects and how I write, and learns from every draft I reject.</li>
+        <li><b>Prepares the work:</b> replies with the reason behind them, e-mails, the daily's agenda. Anything bigger becomes a lane, a background Claude session with a brief that opens the PR or produces the PDF.</li>
+        <li><b>I approve, it ships:</b> one queue on my phone with push notifications. Nothing goes out without me.</li>
+      </ul>
+      7,600+ Claude Code sessions and 22,000+ subagents in the last 30 days, across 7 accounts in parallel.
+      <br><br><code>Claude Code</code> <code>MCP</code> <code>Node</code> <code>SQLite</code> <code>Web Push</code> <code>Cloudflare Tunnel</code>
+      <br><br><a href="https://felipefrf.com/#systems">See the architecture →</a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/felipefrf/penpad"><img src="https://raw.githubusercontent.com/felipefrf/penpad/main/docs/img/variation.png" alt="penpad: the same sentence handwritten six times"></a>
       <h4><a href="https://github.com/felipefrf/penpad">penpad</a></h4>
