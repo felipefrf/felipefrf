@@ -24,34 +24,26 @@ Every person on the team gets their own agent, running in its own Linux microVM 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://medalvo.com.br"><img src="https://raw.githubusercontent.com/felipefrf/felipefrf.com/main/public/media/medalvo-poster.jpg" alt="MedAlvo home page"></a>
-      <h4><a href="https://medalvo.com.br">MedAlvo</a></h4>
-      Adaptive prep for Brazilian medical residency exams, live and paying. 163k official questions; FSRS, IRT and knowledge tracing pick what each student sees next. AI agents run the question pipeline and day-to-day ops.
-      <br><br><code>FastAPI</code> <code>Postgres</code> <code>pgvector</code> <code>Cloud Run</code> <code>React</code>
-    </td>
-    <td width="50%" valign="top">
       <a href="https://github.com/felipefrf/penpad"><img src="https://raw.githubusercontent.com/felipefrf/penpad/main/docs/img/variation.png" alt="penpad: the same sentence handwritten six times"></a>
       <h4><a href="https://github.com/felipefrf/penpad">penpad</a></h4>
       Markdown + LaTeX notes turned into realistic handwritten pages for iPad, Goodnotes and reMarkable. Fractions, integrals and vectors in handwriting. Offline, <code>pip install</code>, no API key.
       <br><br><code>Python</code> <code>resvg</code> <code>LaTeX</code>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://felipefrf.com/curo/"><img src="https://raw.githubusercontent.com/felipefrf/felipefrf.com/main/public/media/curo-en-poster.jpg" alt="Curo home page"></a>
       <h4><a href="https://felipefrf.com/curo/">Curo</a></h4>
       A WhatsApp patient-care layer for specialist doctors: one chat for the patient, while the agent deals with the hospital, the insurer and the referring doctor. Built with my brother; got us a Y Combinator interview.
       <br><br><code>Google ADK</code> <code>Gemini</code> <code>Postgres</code> <code>WhatsApp</code>
     </td>
-    <td width="50%" valign="top">
-      <h4>Smaller tools</h4>
-      <a href="https://github.com/felipefrf/editable-pets"><b>editable-pets</b></a>: a macOS companion that keeps every Claude Code and Codex session in sight.<br><br>
-      <a href="https://github.com/felipefrf/yt-to-md"><b>yt-to-md</b></a>: any YouTube video as clean Markdown for AI agents. No API key.<br><br>
-      <a href="https://github.com/felipefrf/dual-subtitles-extension"><b>dual-subtitles-extension</b></a>: two synced subtitle languages on YouTube, for learning a language.<br><br>
-      <a href="https://github.com/felipefrf/x-reset"><b>x-reset</b></a>: bulk-delete old tweets from your X archive. Resumable.
-    </td>
   </tr>
 </table>
+
+**Smaller tools**
+
+- [**editable-pets**](https://github.com/felipefrf/editable-pets): a macOS companion that keeps every Claude Code and Codex session in sight.
+- [**yt-to-md**](https://github.com/felipefrf/yt-to-md): any YouTube video as clean Markdown for AI agents. No API key.
+- [**dual-subtitles-extension**](https://github.com/felipefrf/dual-subtitles-extension): two synced subtitle languages on YouTube, for learning a language.
+- [**x-reset**](https://github.com/felipefrf/x-reset): bulk-delete old tweets from your X archive. Resumable.
 
 ---
 
