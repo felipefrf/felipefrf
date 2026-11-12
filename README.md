@@ -1,71 +1,70 @@
-# Felipe Ribeiro
+# Hi, I'm Felipe 👋
 
-**AI & Automation Engineer** building production LLM agents and full-stack systems for a Brazilian fintech.
-Aerospace Engineering + Data Science @ [ITA](https://www.ita.br/). I like systems where a wrong answer costs
-real money — so I build them to fail loud, not silent.
+AI engineer from [ITA](https://www.ita.br/). Founding engineer at [Hexagon](https://joinhexagon.com), where I build [**Milo**](https://joinhexagon.com/milo), an AI teammate you hand work to.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-farias-ribeiro)
-&nbsp;·&nbsp; 📍 São Paulo, Brazil
+[felipefrf.com](https://felipefrf.com) · [LinkedIn](https://www.linkedin.com/in/felipe-farias-ribeiro) · São Paulo, Brazil
 
 ---
 
-### Featured: [penpad](https://github.com/felipefrf/penpad), typed notes to realistic handwriting
+### Now: [Milo](https://joinhexagon.com/milo)
 
-Write Markdown with LaTeX math and get handwritten-looking PDF pages for your iPad (Goodnotes,
-Notability), reMarkable or printer. It lays out fractions, integrals, roots and vectors in
-handwriting, and a writer model keeps the letters varied but legible. Open source, offline,
-`pip install`, no API key. [Project page](https://felipefrf.com/penpad/).
+Every person on the team gets their own agent, running in its own Linux microVM with their apps and logins. You give it the job and it carries it through, instead of just answering. My parts of it:
 
-<a href="https://github.com/felipefrf/penpad"><img src="https://raw.githubusercontent.com/felipefrf/penpad/main/docs/img/variation.png" alt="penpad: the same sentence handwritten six times with natural variation" width="560"></a>
+- **Voice.** Live calls with Milo, on the phone and in the app. It keeps working while you talk, and you can cut in and steer it.
+- **Where people already work.** Microsoft Teams and Google Chat on par with Slack and WhatsApp: act-as-user OAuth, streaming, files and voice notes.
+- **Credentials.** An encrypted vault for the hosted browser agent. Passwords and one-time codes go in by alias and never reach the model.
+- **Evals before shipping.** Bilingual ship gates that replay real cases, nightly LLM-judged reviews, and an "autopsy" tool that rebuilds any conversation end to end.
 
----
-
-### What I'm building right now
-
-At **NG.CASH**, I design and ship AI systems end-to-end — LLM orchestration, the cloud infra under it, and the
-guardrails that keep it safe in a regulated fintech:
-
-- **WhatsApp debt-renegotiation agent** — a multi-turn negotiation agent with tiered multi-model LLM
-  orchestration (planner / judge / transcription) where **the model decides the action but never the number** —
-  every value is computed deterministically in code. Runs on AWS (DynamoDB, S3, CDK) with keyless CI/CD, and is
-  hardened against prompt injection (0 policy leaks across a 34-attack test battery).
-- **Full-stack payroll platform** — re-platformed a legacy spreadsheet workflow into a TypeScript app
-  (Fastify + React) on GCP Cloud Run + Cloud SQL, with Terraform IaC, Workload-Identity-Federation CI/CD, and a
-  Gemini pipeline that extracts and auto-validates contractor invoices.
-- **Document & compliance automations** — multimodal OCR + entity extraction pipelines that triage judicial
-  notifications and complaint inboxes against SLAs, integrating SOAP web services, Snowflake, and Slack.
-
-> The company code lives in private repos (credentials, PII, internal data). Happy to walk through the
-> architecture in a conversation.
+<sub>The company code is private. Happy to walk through the architecture on a call.</sub>
 
 ---
 
-### Selected projects
+### Things I've built
 
-| Project | What it is | Stack |
-|---|---|---|
-| [**penpad**](https://github.com/felipefrf/penpad) | Markdown + LaTeX notes to realistic handwritten PDF pages for iPad, Goodnotes and reMarkable, offline | Python, resvg |
-| [**yt-to-md**](https://github.com/felipefrf/yt-to-md) | Turn any YouTube video into clean, structured Markdown for AI agents — no API key, no cost | Python |
-| [**dual-subtitles-extension**](https://github.com/felipefrf/dual-subtitles-extension) | Chrome extension showing two synced subtitle languages on YouTube for language learning | WXT, React |
-| [**x-reset**](https://github.com/felipefrf/x-reset) | Bulk-delete old tweets from your official X archive — resumable, browser-driven | Playwright |
-| **medical-residency-trainer** *(private)* | Production ML study platform (50k+ questions) — FSRS spaced repetition, IRT difficulty calibration, Bayesian knowledge tracing | FastAPI, PostgreSQL, PyTorch |
-| **application-agent** *(private)* | End-to-end AI application pipeline — scrapes program pages, RAG over past writing, browser automation to submit forms | Python, Gemini, Playwright |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://medalvo.com.br"><img src="https://raw.githubusercontent.com/felipefrf/felipefrf.com/main/public/media/medalvo-poster.jpg" alt="MedAlvo home page"></a>
+      <h4><a href="https://medalvo.com.br">MedAlvo</a></h4>
+      Adaptive prep for Brazilian medical residency exams, live and paying. 163k official questions; FSRS, IRT and knowledge tracing pick what each student sees next. AI agents run the question pipeline and day-to-day ops.
+      <br><br><code>FastAPI</code> <code>Postgres</code> <code>pgvector</code> <code>Cloud Run</code> <code>React</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/felipefrf/penpad"><img src="https://raw.githubusercontent.com/felipefrf/penpad/main/docs/img/variation.png" alt="penpad: the same sentence handwritten six times"></a>
+      <h4><a href="https://github.com/felipefrf/penpad">penpad</a></h4>
+      Markdown + LaTeX notes turned into realistic handwritten pages for iPad, Goodnotes and reMarkable. Fractions, integrals and vectors in handwriting. Offline, <code>pip install</code>, no API key.
+      <br><br><code>Python</code> <code>resvg</code> <code>LaTeX</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://felipefrf.com/curo/"><img src="https://raw.githubusercontent.com/felipefrf/felipefrf.com/main/public/media/curo-en-poster.jpg" alt="Curo home page"></a>
+      <h4><a href="https://felipefrf.com/curo/">Curo</a></h4>
+      A WhatsApp patient-care layer for specialist doctors: one chat for the patient, while the agent deals with the hospital, the insurer and the referring doctor. Built with my brother; got us a Y Combinator interview.
+      <br><br><code>Google ADK</code> <code>Gemini</code> <code>Postgres</code> <code>WhatsApp</code>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Smaller tools</h4>
+      <a href="https://github.com/felipefrf/editable-pets"><b>editable-pets</b></a>: a macOS companion that keeps every Claude Code and Codex session in sight.<br><br>
+      <a href="https://github.com/felipefrf/yt-to-md"><b>yt-to-md</b></a>: any YouTube video as clean Markdown for AI agents. No API key.<br><br>
+      <a href="https://github.com/felipefrf/dual-subtitles-extension"><b>dual-subtitles-extension</b></a>: two synced subtitle languages on YouTube, for learning a language.<br><br>
+      <a href="https://github.com/felipefrf/x-reset"><b>x-reset</b></a>: bulk-delete old tweets from your X archive. Resumable.
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### Stack
 
-**AI/ML** — LLM orchestration, prompt engineering, RAG, guardrails/evals, PyTorch, XGBoost, NLP, computer vision
-**Backend & Full-Stack** — TypeScript, Node.js, Fastify, NestJS, React, Python (FastAPI)
-**Data** — SQL, Snowflake, PostgreSQL/pgvector, DynamoDB, ETL/ELT
-**Cloud & DevOps** — AWS (DynamoDB, S3, CDK), GCP (Cloud Run, Cloud SQL), Terraform, Docker, CI/CD
+<img src="https://skillicons.dev/icons?i=ts,python,react,nodejs,fastapi,postgres,gcp,aws,terraform,docker&perline=10" alt="TypeScript, Python, React, Node.js, FastAPI, Postgres, GCP, AWS, Terraform, Docker">
+
+LLM agents and orchestration, voice, evals and guardrails, RAG, browser automation.
 
 ---
 
 ### Before this
 
-**Credix** — ML Engineer, built the credit-decisioning models (XGBoost / logistic regression) that became the
-primary automated engine. **LinkedIn** — shipped an LLM revenue-forecasting chatbot for the US & Canada sales team.
-Earlier: physics & robotics olympiad medalist (🥇 Iberoamerican Physics gold, 3× Brazilian Physics gold).
+**NG.CASH**: production LLM agents for a Brazilian fintech, including a WhatsApp debt-negotiation agent that never lets the model pick the number. **Credix**: credit models that became the automated decision engine. **LinkedIn**: an LLM chatbot for the US & Canada sales forecast.
 
-<sub>Open to Full Stack AI Engineer roles.</sub>
+Before code, physics: 1st overall at the Iberoamerican Physics Olympiad 2020, 50+ olympiad medals.
